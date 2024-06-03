@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    /* background-image:url(digital-art-neon-bubbles.jpg); */
+    /* background-size: cover; */
+    background: linear-gradient(156deg, rgb(149, 54, 212) 0%, rgb(30, 179, 164) 65%);
+
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main>button{
+    height: 7rem;
+    width: 12rem;
+    font-size: 3rem ;
+    background-color: rgba(255, 255, 255, 0.296);
+    border: 2px solid rgba(255, 255, 255, 0.645);
+    backdrop-filter:blur(6px);
+}
+button>a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
